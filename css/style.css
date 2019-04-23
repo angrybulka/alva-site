@@ -163,18 +163,33 @@ p,a{
 }
 .header-offer p{
     margin-left: 170px;
-    
+    margin-top: 36px;
+    margin-bottom: 35px;
+    margin-right: 29px;
+
     font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.header-offer p span{
+    text-transform: uppercase;
     line-height: 29px;
 }
 .header-offer a{
-    /* margin-right: 240px; */
+    margin-right: 240px;
     text-decoration: none !important;
     color: white;
 }
 .btn-offer{
+    margin-top: 27px;
     background: #9F4954;
     border: none;
+    width: 312px;
+    height: 46px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .btn-offer:hover{
     background: rgb(226, 114, 129);
