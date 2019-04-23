@@ -113,11 +113,14 @@ p,a{
     align-items: center;
     align-content: center;
     margin: 0;
-    margin-bottom: 32px;
+
 }
 .header-nav .navigation li{
     display: block;
-    padding-right: 52px;
+    padding: 30px;
+}
+.header-nav .navigation li:hover{
+    background: rgba(67, 73, 79, 0.164);
 }
 .header-nav .navigation li a{
     text-decoration: none;
