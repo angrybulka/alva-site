@@ -55,7 +55,7 @@ p,a{
 }
 .header-contacts p::before{
     content: "";
-    background: url("/image/telephone.png");
+    background: url("../image/telephone.png");
     background-position: center;
     background-size: cover;
     height: 22px;
