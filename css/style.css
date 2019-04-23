@@ -417,7 +417,7 @@ p,a{
 
 /* comments-block */
 .comments-block{
-    margin-bottom: 65px;
+    margin-bottom: 0px;
 }
 .comments-block-wrap .comments-title{
     margin-top: 55px;
@@ -471,7 +471,7 @@ p,a{
     color: #202020;
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 90px;
+    margin-bottom: 75px;
 }
 
 /* news-block */
@@ -553,10 +553,7 @@ p,a{
     .header-contacts p{
         display: none;
     }
-    .nav-nav{
-        display: block;
- 
-    }
+
     .header-nav .navigation{
         display: none;
     }
@@ -586,10 +583,6 @@ p,a{
         justify-content: center;
     }
 
-    .comments-block-wrap .comments-author{
-        margin-bottom: 10px;
-    }
-
     /* offer-block */
     .header-offer{
         display: flex;
@@ -604,12 +597,6 @@ p,a{
         margin-right: 0px;
         margin-bottom: 30px;
         margin-top: 10px;
-    }
-}
-@media only screen and (max-width: 990px) {
-
-    .social-icons{
-        margin-left: 0px;
     }
 }
 
