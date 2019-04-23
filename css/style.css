@@ -354,7 +354,7 @@ p,a{
     position: absolute;
     content: "";
     right: -4%;
-    top: 45%;
+    top: 50%;
     background: url("../image/arrow.svg") no-repeat;
     width: 7px;
     height: 18px;
@@ -364,7 +364,7 @@ p,a{
     position: absolute;
     content: "";
     right: -14%;
-    top: 45%;
+    top: 50%;
     background: url("../image/arrow.svg") no-repeat;
     width: 7px;
     height: 18px;
