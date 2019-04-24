@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/response-menu.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -238,20 +239,43 @@
                 </div>
             </div>
         </section>
-        <section class="comments-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-12">
-                        <div class="comments-block-wrap text-center">
-                            <h3 class="comments-title">OUR CUSTOMERS SAY</h3>
-                            <p class="comments-content ">Some review text, some review text, some review text, some
-                                review text, some review text, some review text,</p>
-                            <p class="comments-author">Anthony, New York</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="comments-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <div class="comments-block-wrap text-center">
+          <h3 class="comments-title">OUR CUSTOMERS SAY</h3>
+          <div class="mySlides">
+            <p class="comments-content ">Lorem ipsum dolor sit amet.</p>
+            <p class="comments-author">Anthony, New York</p>
+          </div>
+          <div class="mySlides">
+            <p class="comments-content ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p class="comments-author">Dunda, Afrika</p>
+          </div>
+          <div class="mySlides">
+            <p class="comments-content ">Some reviereview text, some review text, some review text</p>
+            <p class="comments-author">Ragnar York</p>
+          </div>
+          <div class="slideshow-container">
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>
+          </div>
+
+          <!-- Dots/bullets/indicators -->
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slideshow container -->
         <section class="news-block">
             <div class="container">
                 <div class="row">
@@ -375,7 +399,8 @@
             </ul>
         </nav>
     </div>
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>

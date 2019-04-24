@@ -510,7 +510,7 @@ a {
     position: relative;
 }
 
-.comments-block-wrap .comments-content::before {
+/* .comments-block-wrap .comments-content::before {
     content: "";
     background: url("../image/left-btn.svg");
     height: 33px;
@@ -528,13 +528,13 @@ a {
     position: absolute;
     top: 30px;
     right: -90px;
-}
+} */
 
 .comments-block-wrap .comments-author {
     color: #202020;
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
 }
 
 /* news-block */
