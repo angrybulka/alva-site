@@ -60,7 +60,7 @@ a {
 
 .header-contacts p::before {
     content: "";
-    background: url("../image/telephone.png");
+    background: url("../dist/telephone.png");
     background-position: center;
     background-size: cover;
     height: 22px;
@@ -93,7 +93,7 @@ a {
 }
 
 .header-wrap {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/background.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../dist/background.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -276,7 +276,7 @@ a {
 
 /* sheer-shades */
 .sheer-shades {
-    background: linear-gradient(rgba(67, 73, 79, 0.870), rgba(67, 73, 79, 0.870)), url('../image/background.png');
+    background: linear-gradient(rgba(67, 73, 79, 0.870), rgba(67, 73, 79, 0.870)), url('../dist/background.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -354,7 +354,7 @@ a {
 
 .btn-rectangle::before {
     content: "";
-    background: url("../image/1free.png");
+    background: url("../dist/1free.png");
     top: 25%;
     left: 19px;
     height: 60px;
